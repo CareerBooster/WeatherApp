@@ -13,6 +13,7 @@ const App = () => {
       `http://api.openweathermap.org/data/2.5/weather?q=${state},${country}&APPID=${secret}`
     );
     setData(res);
+    console.log(data);
   };
 
   return (
